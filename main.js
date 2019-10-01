@@ -1,5 +1,3 @@
-
-
 $(document).ready(function(){
 	$(document).click(dropLetters);
 	$(document).keydown(onKeyPress);
@@ -87,7 +85,6 @@ function onKeyPress(e){
 	}
 	if(e.key){
 		
-	
 		var upper = $('.canvas div:contains("'+e.key.toUpperCase()+'")');
 		var lower = $('.canvas div:contains("'+e.key.toLowerCase()+'")');
 		
