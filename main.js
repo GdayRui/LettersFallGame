@@ -33,9 +33,6 @@ function dropLetters(){
 	var currColor = colorArray[Math.floor(Math.random()*colorArray.length)];
 	
 	if(!isStarted){
-		$('#introduction').hide();
-		$('#setting').hide();
-		$('#scoreNum').show();
 
 		itv = setInterval(function(){
 			var currLetterIdx = Math.floor(Math.random()*letterArray.length);
