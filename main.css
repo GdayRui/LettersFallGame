@@ -29,13 +29,56 @@ body{
 }
 #introduction{
 	color: white;
-	font-size: 20px;
+	font-size: 35px;
 	background-color: black;
 	margin-top: 50px;
+	line-height: 3;
+    padding-right: 200px;
+    opacity: 0.6;
 }
 #setting label{
 	color: white;
 }
 #setting input{
 	background-color: black;
+}
+
+p span{
+	font-weight: bold;
+	padding: 20px;
+}
+
+span.info1{
+	color: gold;
+}
+
+span.info2{
+	color: greenyellow;
+}
+span.info3{
+	color: lightcoral;
+}
+
+@media (max-width: 1000px){
+	#introduction{
+		color: white;
+		font-size: 30px;
+		background-color: black;
+		margin-top: 50px;
+		line-height: 2;
+		padding-right: 0;
+		opacity: 0.6;
+	}
+}
+
+@media (max-width: 414px){
+	#introduction{
+		color: white;
+		font-size: 20px;
+		background-color: black;
+		margin-top: 50px;
+		line-height: 2;
+		padding-right: 0;
+		opacity: 0.6;
+	}
 }
