@@ -14,11 +14,11 @@ $(document).ready(function(){
 var settings = {
 	letterArray: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
 	colorArray: ['lightpink','lightgreen','lightgray','plum', 'lightsalmon','lightskyblue'],
-	interval: 1000,			// after every such interval, a new letter is generated on screen
-	minTravelTime: 1000,
-	travelTimeDiff: 7000,	// the difference between min travel time and max travel time
+	interval: 500,			// after every such interval, a new letter is generated on screen
+	minTravelTime: 500,
+	travelTimeDiff: 4000,	// the difference between min travel time and max travel time
 	minFontSize: 30,
-	fontSizeDiff: 200		// the difference between min font size and max font size
+	fontSizeDiff: 100		// the difference between min font size and max font size
 }
 
 var isStarted = false;
@@ -45,7 +45,7 @@ function dropLetters(){
 			var currLetterIdx = Math.floor(Math.random()*settings.letterArray.length);
 			var currLetter = settings.letterArray[currLetterIdx];
 			
-			var currLeft = Math.floor(Math.random() * settings.fontSizeDiff) + settings.minFontSize;
+			var currLeft = Math.floor(Math.random() * maxWidth);
 			var opacity = Math.random();
 			
 			var fontSize = Math.floor(Math.random()* settings.fontSizeDiff) + settings.minFontSize;
