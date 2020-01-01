@@ -1,9 +1,9 @@
 # Letters Fall Game
 
-Click screen to start. Click again to stop. 
+Click screen to start, and then click again to stop. 
 
 Get score by typing the letters that are falling.
 
-Once start game, the score box will be displayed at the left top.
+Once the game is started, a score box will be displayed at the left top.
 
-## [PLAY NOW](http://6bingclub.com/lettersfall/)
+## [Play here](https://gdayrui.github.io/LettersFallGame/)
